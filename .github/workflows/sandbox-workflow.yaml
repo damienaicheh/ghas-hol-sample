@@ -1,0 +1,13 @@
+name: Sandbox
+on:
+  workflow_dispatch:
+  
+jobs:
+  get_current_step:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Hello
+        run: echo Hello World
