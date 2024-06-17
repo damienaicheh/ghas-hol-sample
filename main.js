@@ -7,3 +7,5 @@ app.get('/user/:id', function(req, res) {
     // ...
     res.send(prefix + userHtml + suffix);
 });
+
+// Ready.
